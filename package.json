@@ -1,0 +1,24 @@
+{
+  "name": "wcag-checker",
+  "description": "Command line script to generate WCAG accessibility reports for a set of webpages.",
+  "version": "0.1.0",
+  "homepage": "???",
+  "author": "Andrew Eisenberg (http://contraptionsforprogramming.blogspot.com)",
+  "repository": {
+    "type": "git",
+    "url": "???"
+  },
+  "bugs": {
+    "url": "???"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "???"
+    }
+  ],
+  "keywords": [
+    "wcag",
+    "accessibility"
+  ]
+}

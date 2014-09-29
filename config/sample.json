@@ -1,0 +1,24 @@
+{
+	// base url of website to test
+	baseUrl : 'http://localhost:8888/',
+
+	// location where to place reports
+	reportsDir :'/tmp/wcag-reports/',
+
+	// webpages to test
+	// paths are relative to the base url
+	paths : [
+		'home',
+		'settings',
+		'login'
+	],
+
+	// accessibility level to use
+	// available options: WCAG2A, WCAG2AA (default), WCAG2AAA
+	accessibilityLevel: 'WCAG2AA',
+
+	// list of guidelines to ignore
+	ignores : [
+		'WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID'
+	]
+}
